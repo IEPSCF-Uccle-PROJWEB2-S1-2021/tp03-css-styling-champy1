@@ -40,15 +40,16 @@ header, section, aside, nav, footer {
 header, footer {
   border-top: 5px solid #a66;
   border-bottom: 5px solid #a66;
+
 }
 
 /* ECRIVEZ VOTRE CODE CI-DESSOUS */
 
 body{
-  font-family: 'Allerta Stencil',sans-serif;
+  font-family: serif;
   font-size: 10px;
   letter-spacing: 2px;
-  word-spacing: 3em;
+  word-spacing: 1em;
 }
 h1{
   text-align: center;
@@ -58,20 +59,20 @@ h2{
   font-size: 3em;
  }
 h1,h2{
-  font-family:sans-serif;
+  font-family: sans-serif;
   line-height: normal;
-  text-align: center;
   letter-spacing: 2px;
   font-style: italic;
+  text-indent: 0px;
 }
 p,li{
   font-size: 1.5em;
   line-height: 1.5em;
-  letter-spacing: 2px;
+  letter-spacing:2px;
   word-spacing: 2px;
 }
 section,h2+p{
-  text-indent: 100px;
+  text-indent: 20px;
 }
 a:link{
   color: blue;
@@ -95,19 +96,20 @@ a[href*="http"]{
   background: url(external-link-52.png)no-repeat 100%;
   background-size: 10px 10px;
 }
-ul+li{
-  list-style-type: circle;
+ul{
+  list-style-type: square;
+}
+ol{
+  list-style-type: lower-alpha;
 }
 nav li{
   list-style-type: none;
-}
-nav,li{
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 nav li a{
   text-decoration: none;
   display: inline-block;
-  line-height: 2.5em;
+  line-height: 2em;
   width: 100%;
   text-align: center;
   font-size: 2em;
